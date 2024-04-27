@@ -18,7 +18,11 @@ object sess9task {
 
 			val spark = SparkSession.builder.getOrCreate()
 			import spark.implicits._
-
+/*
+---------
+task: XML file Format (transactions.xml)
+--------
+*/ 
 			val df = spark
 				  .read
 				  .format("xml")
