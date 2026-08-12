@@ -1,3 +1,11 @@
+/*
+ * -----Session 6- Task 1 ---
+(1) Read datatxns.txt
+(2) do the map split
+(3) create a case class (id,category,product,mode)
+(4) Impose case class
+(4) Filter product contains Gymnastics and id>20
+ */
 package pack
 import org.apache.spark._
 import org.apache.spark.sql.SparkSession
